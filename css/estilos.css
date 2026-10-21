@@ -1,0 +1,175 @@
+body {
+    margin: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Ejemplo CSS # 2 */
+
+.fondoPagina2 {
+    background-color: #f3f1fc;
+}
+
+.contenedorPagina2 {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 50px 20px 60px 20px;
+}
+
+.tituloPagina2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    color: #1a1823;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.gridLayouts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 35px;
+}
+
+.tarjetaLayout {
+    text-align: center;
+}
+
+.imagenLayout {
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
+.nombreLayout {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #514f5a;
+}
+
+/* Ejercicio CSS # 3 */
+
+.fondoPagina3 {
+    background-color: #ffffff;
+    color: #777777;
+    line-height: 1.8;
+}
+
+.contenedorPagina3 {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 40px 20px 60px 20px;
+}
+
+.tituloPagina3 {
+    font-size: 23px;
+    font-weight: 300;
+    color: #3b6a99;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.introduccionPagina3 {
+    font-size: 13px;
+    margin-bottom: 51px;
+}
+
+.fondoPagina3 a {
+    color: #3b6a99;
+    text-decoration: none;
+}
+
+.gridServicios {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 48px;
+    row-gap: 41px;
+}
+
+.servicio {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.iconoServicio {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5.6px;
+}
+
+.tituloServicio {
+    font-size: 22px;
+    font-weight: 400;
+    color: #3b6a99;
+    line-height: 1.4;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.textoServicio p {
+    font-size: 13px;
+}
+
+.textoServicio strong {
+    color: #555555;
+}
+
+.fondoPagina3 .botonServicio {
+    display: inline-block;
+    margin-top: 25.6px;
+    padding: 10px 28px;
+    background-color: #346699;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+/* Menú Principal */
+
+html {
+    height: 100%;
+}
+
+.fondoMenu {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f2;
+    background-image: url(../recursos/imagenes/speedglyphs.png);
+    background-size: cover;
+}
+
+.tarjetaMenu {
+    width: 100%;
+    max-width: 460px;
+    padding: 32px;
+    text-align: center;
+}
+
+.tituloMenu {
+    font-size: 40px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 28.8px;
+}
+
+.opcionesMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.opcionMenu {
+    display: grid;
+    padding: 13px 20px;
+    background-color: #1d3e6f;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 4px;
+}
